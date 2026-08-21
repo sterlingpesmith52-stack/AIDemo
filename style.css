@@ -1,1 +1,90 @@
 
+/* Outer browser window */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    min-height: 101vh;
+}
+
+/* Tool container */
+.mobile-frame {
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    background: #e9f3ff;
+}
+
+/* Header */
+header {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 8px 0 16px 0;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+    padding: 9px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #162d6b;
+    background: #1e3a8a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Mode display box */
+#modeDisplay {
+    width: 100px;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    color: #333;
+}
+
+/* Bars */
+#topBar, #bottomBar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+/* Textareas */
+#promptArea, #outputArea {
+    width: calc(100% - 32px);
+    margin: 10px 16px;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+    box-sizing: border-box;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+#promptArea {
+    height: 120px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#outputArea {
+    height: 240px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
