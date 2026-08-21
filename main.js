@@ -1,6 +1,6 @@
 /* --- LOAD HUGGINGFACE CLIENT (non‑module version) --- */
 const client = new Hf({
-    apiKey: "YOUR_API_KEY_HERE"
+    apiKey: "HFAKEYcDeLc9KPgeVpZDQ43yo"
 });
 
 /* --- WAIT FOR CLIENT --- */
