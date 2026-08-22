@@ -20,14 +20,15 @@ body {
     box-sizing: border-box;
 }
 
-/* Buttons */
+/* Buttons — updated lighter blue */
 button {
     display: inline-block;
     padding: 9px 12px;
     font-size: 15px;
     border-radius: 6px;
-    border: 1px solid #162d6b;
-    background: #1e3a8a;
+    border: 1px solid #5a8fdc;
+    background: #78a7ff;
     color: #fff;
     cursor: pointer;
 }
+
