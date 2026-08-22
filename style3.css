@@ -31,3 +31,20 @@ button {
     color: #fff;
     cursor: pointer;
 }
+
+/* Bars (top and bottom) */
+#topBar, #bottomBar {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+#topBar input {
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #333;
+}
