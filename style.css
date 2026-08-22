@@ -20,11 +20,14 @@ body {
     box-sizing: border-box;
 }
 
-/* Header text */
-header {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #000;
-    text-align: center;
-    margin: 8px 0 16px 0;
+/* Buttons */
+button {
+    display: inline-block;
+    padding: 9px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #162d6b;
+    background: #1e3a8a;
+    color: #fff;
+    cursor: pointer;
 }
