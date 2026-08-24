@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- default -->
     <meta charset="UTF-8">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>AI Transforms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="style8.css?v=004">
+    <link rel="stylesheet" href="style7.css?v=004">
 
-    <!-- Hugging Face client -->
-    <script src="https://cdn.jsdelivr.net/npm/@huggingface/hf@latest/dist/hf.js"></script>
-
-    <!-- External JavaScript -->
-    <script type="module" src="main.js?v=001"></script>
+    <title>AI Transforms</title>
 </head>
 
 <body>
-    <div class="mobile-frame">
 
-        <header>AI Transforms</header>
+    <!-- Visible Title -->
+    <h2 id="title">AI Transforms</h2>
 
-        <div id="topBar">
-            <button id="typeBtn">Type</button>
-            <input id="modeDisplay" readonly value="Start here">
-            <button id="clearBtn">Clear</button>
-            <button id="pasteBtn">Paste</button>
+    <!-- Mobile Frame -->
+    <div id="mobile-frame">
+
+        <!-- Top Bar -->
+        <div id="top-bar">
+            <button id="modeButton">Mode</button>
+            <div id="modeDisplay">Default</div>
+            <button id="clearButton">Clear</button>
         </div>
 
-        <textarea id="promptArea" placeholder="Enter text here..."></textarea>
-        <textarea id="outputArea" placeholder="Output appears here..."></textarea>
+        <!-- Textareas -->
+        <textarea id="inputText" placeholder="Enter text here..."></textarea>
+        <textarea id="outputText" placeholder="Output appears here..."></textarea>
 
-        <div id="bottomBar">
-            <button id="darkBtn">Dark</button>
-            <button id="voiceBtn">Voice</button>
-            <button id="historyBtn">History</button>
-            <button id="copyBtn">Copy</button>
+        <!-- Bottom Bar -->
+        <div id="bottom-bar">
+            <button id="runButton">Run</button>
         </div>
 
     </div>
+
+    <!-- JavaScript -->
+    <script type="module" src="main.js"></script>
+
 </body>
 </html>
