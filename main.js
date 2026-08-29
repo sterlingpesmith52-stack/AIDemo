@@ -210,6 +210,7 @@ document.getElementById("historyBtn").onclick = function () {
         outputArea.value = "No history yet.";
         return;
     }
+
     let text = "";
     history.forEach((item, index) => {
         text += `#${index + 1} — ${item.mode}\n`;
