@@ -210,3 +210,12 @@ document.getElementById("historyBtn").onclick = function () {
         outputArea.value = "No history yet.";
         return;
     }
+    let text = "";
+    history.forEach((item, index) => {
+        text += `#${index + 1} — ${item.mode}\n`;
+        text += `Input: ${item.input}\n`;
+        text += `Output: ${item.output}\n\n`;
+    });
+
+    outputArea.value = text.trim();
+};
