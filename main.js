@@ -1,3 +1,11 @@
+console.log("script loaded: main.js");
+
+function testFunction() {
+    console.log("test function ran");
+}
+
+testFunction();
+
 /* --- LOAD HUGGINGFACE CLIENT (non‑module version) --- */
 const client = new Hf({
     apiKey: "HFAKEYcDeLc9KPgeVpZDQ43yo"
