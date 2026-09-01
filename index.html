@@ -1,1 +1,45 @@
 
+<html lang="en">
+<head>
+    <!-- default -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>AI Transforms</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style10.css?v=004">
+
+    <!-- Hugging Face client -->
+    <script src="https://cdn.jsdelivr.net/npm/@huggingface/hf@latest/dist/hf.js"></script>
+
+    <!-- External JavaScript -->
+    <script type="module" src="main.js?v=001"></script>
+</head>
+
+<body>
+
+    <div class="mobile-frame">
+
+        <header>AI Transforms</header>
+
+        <div id="topBar">
+            <button id="typeBtn">Type</button>
+            <input id="modeDisplay" readonly value="Start here">
+            <button id="clearBtn">Clear</button>
+            <button id="pasteBtn">Paste</button>
+        </div>
+
+        <textarea id="promptArea" placeholder="Enter text here..."></textarea>
+        <textarea id="outputArea" placeholder="Output appears here..."></textarea>
+
+        <div id="bottomBar">
+            <button id="darkBtn">Dark</button>
+            <button id="voiceBtn">Voice</button>
+            <button id="historyBtn">History</button>
+            <button id="copyBtn">Copy</button>
+        </div>
+
+    </div>
+</body>
+</html>
